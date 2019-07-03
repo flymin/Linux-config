@@ -5,6 +5,10 @@ configuration file for Linux
 ```
 tmux <~ 2.0
 ```
+usage
+```
+curl -fsSL "https://github.com/flymin/Linux-config/raw/master/tmux-setup_ubuntu.sh" | /bin/sh
+```
 
 ### vim configuration
 To install [vim plug](https://github.com/junegunn/vim-plug), run
