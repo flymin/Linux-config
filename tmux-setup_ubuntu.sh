@@ -11,6 +11,7 @@ sudo apt-get install libevent-dev
 sudo apt-get install libncurses5-dev
 
 # install
+sh autogen.sh
 ./configure && make
 sudo make install
 
