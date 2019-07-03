@@ -14,6 +14,7 @@ sudo apt-get install libncurses5-dev
 ./configure && make
 sudo make install
 
-# setup config file
+# setup config file and clear
 cd ~
 wget https://github.com/flymin/Linux-config/raw/master/.tmux.conf
+rm -rf 2.0.tar.gz tmux-2.0/
