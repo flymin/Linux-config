@@ -1,0 +1,13 @@
+hardstatus on
+hardstatus alwayslastline
+hardstatus string "%{= G}%-Lw%{= .Y}%50> %n*%f %t%{= G}%+Lw%< %{= G}%-=%D %c:%s %m/%d/%Y"
+startup_message off
+vbell off
+autodetach on
+msgwait 1
+shell bash
+termcapinfo xterm|xterms|xs|rxvt|urxvt|tila ti@:te@
+bind c screen 1
+bind ^c screen 1
+bind 0 select 10
+screen 1
